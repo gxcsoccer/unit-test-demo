@@ -1,0 +1,1 @@
+module.exports = process.env.LIB_COV ? require('lib/fn') : require('lib/fn');
